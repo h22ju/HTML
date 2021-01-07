@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffd662;
+  font-size: 50px;
+  font-weight: 700;
+  color: #00539c;
+}
+
+.box::after {
+  content: "mobile";
+}
+
+@media screen and (min-width: 576px) {
+  /*landscape phone*/
+  .box {
+    background-color: #00539c;
+    color: #ffd662;
+  }
+
+  .box::after {
+    content: "landscape phone";
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*tablet*/
+  .box {
+    background-color: #8bd8bd;
+    color: #243665;
+  }
+
+  .box::after {
+    content: "tablet";
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*desktop*/
+  .box {
+    background-color: #243665;
+    color: #8bd8bd;
+  }
+
+  .box::after {
+    content: "desktop";
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /*large esktop*/
+  .box {
+    background-color: #fff;
+    color: #8aaae5;
+  }
+
+  .box::after {
+    content: "large desktop";
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  /*super large desktop*/
+  .box {
+    background-color: #8aaae5;
+    color: #fff;
+  }
+
+  .box::after {
+    content: "super large desktop";
+  }
+}

@@ -1,2 +1,2 @@
-# Responsive-Web
-반응형 웹 개발 연습
+# HTML
+HTML 마크업 연습 공간 😉✌
